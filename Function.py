@@ -23,8 +23,8 @@ for i in range(1, len(df.columns)+1):
              <v1:Password>9999</v1:Password>
              <!--1 or more repetitions:-->
              <v1:Entries>
-                <v1:SiteID>{0}</v1:SiteID>
-                <v1:Client>{1}</v1:Client>
+                <v1:SiteID>1</v1:SiteID>
+                <v1:Client>1</v1:Client>
                 <v1:AccountNumber>1</v1:AccountNumber>
                 <v1:RTNo>1</v1:RTNo>
                 <v1:AccountLocationID>11</v1:AccountLocationID>
@@ -32,21 +32,16 @@ for i in range(1, len(df.columns)+1):
                 <v1:LocationID>11</v1:LocationID>
                 <v1:OrderEntry>Web Order</v1:OrderEntry>
                 <v1:TotalAmount>1000</v1:TotalAmount>
-                <v1:OrderDate>{2}</v1:OrderDate>
+                <v1:OrderDate>2018-01-10-07:00</v1:OrderDate>
                 <v1:OrderTime>00:00:00.000-07:00</v1:OrderTime>
-                <v1:ShipDate>{3}</v1:ShipDate>
-                <v1:DeliveryDate>{4}</v1:DeliveryDate>
+                <v1:ShipDate>2018-01-15-07:00</v1:ShipDate>
+                <v1:DeliveryDate>2018-01-16-07:00</v1:DeliveryDate>
                 <v1:Pending>No</v1:Pending>
                 <v1:ATMCashAdd>0</v1:ATMCashAdd>
                 <v1:ExtrefID/>
                 <v1:ExtrefID2/>
                 <v1:PassthruID xsi:nil='true' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'/>
-                <v1:OrderSubTypeID xsi:nil='true' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'/>
-                <!--1 or more repetitions:-->
-                <v1:OrderDenomData>
-                   <!--1 or more repetitions:-->
-                   <v1:OrderItems>
-                      <v1:MediaCategory>{5}</v1:MediaCategory>
+                     <v1:MediaCategory>New Currency</v1:MediaCategory>
                       <v1:ItemType>
                          <v1:DenominationName>US $1</v1:DenominationName>
                          <v1:DenominationValue>100</v1:DenominationValue>
