@@ -2,9 +2,11 @@ import requests, os, xlsxwriter
 from bs4 import BeautifulSoup
 
 #TODO Fix the function name typos in the list "functions"
+#TODO Retrieve the operations from the WSDL. Currently its hardcoded until Jefferey fixes his WSDL
+
 
 def finishing(last_element):
-    last = requests.get('http://10.17.240.71:8080/eVASWS.ORDER/services/OrderPort?xsd=eVASBasicTypes.xsd').text
+    last = requests.get('http://luswst007638:8080/eVASWS.ORDER/services/OrderPort?xsd=eVASBasicTypes.xsd').text
     last_soup = BeautifulSoup(last, 'xml')
     original = last_element
     lastly = []
@@ -70,7 +72,7 @@ functions = [
 ]
 
 # Parsing all the main functions from the WSDL
-response = requests.get('http://10.17.240.71:8080/eVASWS.ORDER/services/OrderPort?wsdl').text
+response = requests.get('http://luswst007638:8080/eVASWS.ORDER/services/OrderPort?wsdl').text
 messages_soup = BeautifulSoup(response, 'xml')
 messages = messages_soup.find_all('wsdl:message')
 functionTypes = []
@@ -82,7 +84,7 @@ for message in messages:
             functionTypes.append(str(part['element']).replace('tns:', ''))
 
 # Getting the columns for every function Dynamically
-response = requests.get('http://10.17.240.71:8080/eVASWS.ORDER/services/OrderPort?xsd=eVASOrdersReqRespTypes.xsd').text
+response = requests.get('http://luswst007638:8080/eVASWS.ORDER/services/OrderPort?xsd=eVASOrdersReqRespTypes.xsd').text
 functions = []
 inner = {}
 outer = {}

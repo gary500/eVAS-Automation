@@ -4,4 +4,4 @@
 from zeep import Client
 
 client = Client('http://10.17.240.71:8080/eVASWS.ORDER/services/OrderPort?wsdl', strict=False)
-node = client.create_message(client.service, 'getLocations')
+print(client.service.getAccountList('1.3', 'GSI', 'GLory', '1'))
