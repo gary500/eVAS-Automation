@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 #TODO Fix the function name typos in the list "functions"
 #TODO Retrieve the operations from the WSDL. Currently its hardcoded until Jefferey fixes his WSDL
 
-
 def finishing(last_element):
     last = requests.get('http://luswst007638:8080/eVASWS.ORDER/services/OrderPort?xsd=eVASBasicTypes.xsd').text
     last_soup = BeautifulSoup(last, 'xml')
@@ -117,4 +116,3 @@ for func in sorted(functionTypes):
     for i in range(0, len(columns)):
         worksheet.write(0, i, str(columns[i]))
     workbook.close()
-

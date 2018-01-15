@@ -1,5 +1,7 @@
 import zeep
 
-wsdl = 'http://luswst007638:8080/eVASWS.MASTERDATA/services/MasterDataPort?wsdl'
+data = ['egypt', 'brazil']
+
+wsdl = 'http://www.webservicex.com/globalweather.asmx?wsdl'
 client = zeep.Client(wsdl=wsdl, strict=False)
-print(client.service.getAccountList('1.2','GSI','Glory', '1'))
+print(client.service.GetCitiesByCountry(*data))
