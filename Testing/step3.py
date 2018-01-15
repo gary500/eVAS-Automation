@@ -79,8 +79,8 @@ def redirects(string, columns):
     #print()
     return columns
 
-if not os.path.exists('order_functions/'):
-    os.makedirs('order_functions/')
+if not os.path.exists('order_function/'):
+    os.makedirs('order_function/')
 
 functions = [
     'getOrderProfile',
@@ -150,7 +150,7 @@ print(outer)
 
 # Writing the spreadsheets with the correct column names for every function
 for func in sorted(functionTypes):
-    workbook = xlsxwriter.Workbook('order_functions/' + func + '.xlsx')
+    workbook = xlsxwriter.Workbook('order_function/' + func + '.xlsx')
     worksheet = workbook.add_worksheet()
     temp = []
     columns = redirects(func, temp)
