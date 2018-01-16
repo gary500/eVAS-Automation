@@ -2,29 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ce7630-6eb6-4b6d-822b-d303568e30d0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/addOrderRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/addStandingOrderRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/getAccountsForOrdersRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/getDeliveryDateFromShipDateRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/getLocationsForOrdersRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/getOrderDetailsListRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/getOrderExtractRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/getOrderProfileRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/getOrderRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/getOrderServiceStatusRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/getOrderStatusRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/getOrderSummaryListRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/getShipDateFromDeliveryDateRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/getStandingOrderRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/updateOrderRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/updateOrderStatusRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/updatePassThroughRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/updateStandingOrderRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/order_function/verifyLocationPasswordRequest.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/combined.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Testing/methods.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/MasterPrep.py" afterPath="$PROJECT_DIR$/MasterPrep.py" />
       <change beforePath="$PROJECT_DIR$/OrderPrep.py" afterPath="$PROJECT_DIR$/OrderPrep.py" />
-      <change beforePath="$PROJECT_DIR$/Testing/step3.py" afterPath="$PROJECT_DIR$/Testing/step3.py" />
+      <change beforePath="$PROJECT_DIR$/Testing/excel.py" afterPath="$PROJECT_DIR$/Testing/excel.py" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/addOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/addStandingOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/getAccountsForOrdersRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/getDeliveryDateFromShipDateRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/getLocationsForOrdersRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/getOrderDetailsListRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/getOrderExtractRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/getOrderProfileRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/getOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/getOrderServiceStatusRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/getOrderStatusRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/getOrderSummaryListRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/getShipDateFromDeliveryDateRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/getStandingOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/updateOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/updateOrderStatusRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/updatePassThroughRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/updateStandingOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/order_function/verifyLocationPasswordRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Testing/wsdl.py" afterPath="$PROJECT_DIR$/Testing/wsdl.py" />
+      <change beforePath="$PROJECT_DIR$/Testing/zeeps.py" afterPath="$PROJECT_DIR$/Testing/zeeps.py" />
+      <change beforePath="$PROJECT_DIR$/Testing/~$addOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/combined.py" afterPath="$PROJECT_DIR$/combined.py" />
+      <change beforePath="$PROJECT_DIR$/master_functions/getAccountListRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/master_functions/getAccountsRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/master_functions/getLocationListRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/master_functions/getLocationsRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/master_functions/getMasterDataServiceStatusRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/master_functions/setAccountLocationsRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/master_functions/setAccountsRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/master_functions/setLocationsRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/old/Function.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/old/Load.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/old/addOrderData.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/old/results.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/addOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/addStandingOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/getAccountsForOrdersRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/getDeliveryDateFromShipDateRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/getLocationsForOrdersRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/getOrderDetailsListRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/getOrderExtractRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/getOrderProfileRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/getOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/getOrderServiceStatusRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/getOrderStatusRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/getOrderSummaryListRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/getShipDateFromDeliveryDateRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/getStandingOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/updateOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/updateOrderStatusRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/updatePassThroughRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/updateStandingOrderRequest.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/order_functions/verifyLocationPasswordRequest.xlsx" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,14 +72,15 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/eVAS_Automation$main.coverage" NAME="main Coverage Results" MODIFIED="1515612337640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/eVAS_Automation$Step2.coverage" NAME="Step2 Coverage Results" MODIFIED="1515706195389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/eVAS_Automation$zeeps.coverage" NAME="zeeps Coverage Results" MODIFIED="1515804811090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/eVAS_Automation$wsdl.coverage" NAME="wsdl Coverage Results" MODIFIED="1515607047475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/eVAS_Automation$OrderPrep.coverage" NAME="OrderPrep Coverage Results" MODIFIED="1515802328874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/eVAS_Automation$zeeps.coverage" NAME="zeeps Coverage Results" MODIFIED="1516125190273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
+    <SUITE FILE_PATH="coverage/eVAS_Automation$wsdl.coverage" NAME="wsdl Coverage Results" MODIFIED="1516126968325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
     <SUITE FILE_PATH="coverage/eVAS_Automation$wsdl__1_.coverage" NAME="wsdl (1) Coverage Results" MODIFIED="1515988130951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
-    <SUITE FILE_PATH="coverage/eVAS_Automation$MasterPrep.coverage" NAME="MasterPrep Coverage Results" MODIFIED="1515802321015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/eVAS_Automation$OrderPrep.coverage" NAME="OrderPrep Coverage Results" MODIFIED="1516124244190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/eVAS_Automation$MasterPrep.coverage" NAME="MasterPrep Coverage Results" MODIFIED="1516124307719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/eVAS_Automation$Step1.coverage" NAME="Step1 Coverage Results" MODIFIED="1515617764797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/eVAS_Automation$parsing.coverage" NAME="parsing Coverage Results" MODIFIED="1515623242538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/eVAS_Automation$combined.coverage" NAME="combined Coverage Results" MODIFIED="1516040771704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
+    <SUITE FILE_PATH="coverage/eVAS_Automation$combined.coverage" NAME="combined Coverage Results" MODIFIED="1516042326737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
+    <SUITE FILE_PATH="coverage/eVAS_Automation$methods.coverage" NAME="methods Coverage Results" MODIFIED="1516131312869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
     <SUITE FILE_PATH="coverage/eVAS_Automation$preparation.coverage" NAME="preparation Coverage Results" MODIFIED="1515618135226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/eVAS_Automation$master.coverage" NAME="master Coverage Results" MODIFIED="1515538384891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/eVAS_Automation$step3.coverage" NAME="step3 Coverage Results" MODIFIED="1515722667728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testing" />
@@ -52,57 +89,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wsdl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Testing/wsdl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OrderPrep.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OrderPrep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state relative-caret-position="1335">
+              <caret line="89" column="2" lean-forward="false" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="excel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Testing/excel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zeeps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Testing/zeeps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="combined.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/combined.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,10 +104,54 @@
       <file leaf-file-name="MasterPrep.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MasterPrep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+            <state relative-caret-position="300">
+              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsdl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testing/wsdl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zeeps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testing/zeeps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="combined.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/combined.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="methods.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Testing/methods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,9 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>entr</find>
-      <find>OrderDenomData</find>
-      <find>unbounded</find>
       <find>OrderAddType</find>
       <find>complex</find>
       <find>,</find>
@@ -161,6 +195,9 @@
       <find>MediaCategory</find>
       <find>OrderItems</find>
       <find>$PROJECT_DIR$/a</find>
+      <find>getDeliv</find>
+      <find>getdeliver</find>
+      <find>get</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,13 +224,15 @@
         <option value="$PROJECT_DIR$/Testing/step3.py" />
         <option value="$PROJECT_DIR$/parsing.py" />
         <option value="$PROJECT_DIR$/zeeps.py" />
+        <option value="$PROJECT_DIR$/Testing/combined.py" />
+        <option value="$PROJECT_DIR$/Testing/excel.py" />
+        <option value="$PROJECT_DIR$/combined.py" />
+        <option value="$PROJECT_DIR$/Testing/order_function/methods.py" />
         <option value="$PROJECT_DIR$/MasterPrep.py" />
         <option value="$PROJECT_DIR$/OrderPrep.py" />
-        <option value="$PROJECT_DIR$/Testing/excel.py" />
-        <option value="$PROJECT_DIR$/Testing/wsdl.py" />
         <option value="$PROJECT_DIR$/Testing/zeeps.py" />
-        <option value="$PROJECT_DIR$/Testing/combined.py" />
-        <option value="$PROJECT_DIR$/combined.py" />
+        <option value="$PROJECT_DIR$/Testing/wsdl.py" />
+        <option value="$PROJECT_DIR$/Testing/methods.py" />
       </list>
     </option>
   </component>
@@ -204,8 +243,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="842" />
-    <option name="width" value="838" />
+    <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -289,6 +327,11 @@
               <item name="eVAS-Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="eVAS-Automation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="eVAS-Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eVAS-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -307,8 +350,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Testing" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/\\" />
       <recent name="$PROJECT_DIR$/old" />
@@ -326,7 +369,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.combined">
+  <component name="RunManager" selected="Python.methods">
+    <configuration name="MasterPrep" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="eVAS-Automation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MasterPrep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="OrderPrep" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,7 +408,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="combined" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="methods" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -359,32 +421,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="eVAS-Automation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/combined.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing/methods.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="eVAS-Automation" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing/excel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="wsdl (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wsdl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -410,7 +453,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -423,18 +466,18 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.wsdl (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.methods" />
       <item index="1" class="java.lang.String" itemvalue="Python.OrderPrep" />
-      <item index="2" class="java.lang.String" itemvalue="Python.zeeps" />
-      <item index="3" class="java.lang.String" itemvalue="Python.excel" />
-      <item index="4" class="java.lang.String" itemvalue="Python.combined" />
+      <item index="2" class="java.lang.String" itemvalue="Python.MasterPrep" />
+      <item index="3" class="java.lang.String" itemvalue="Python.zeeps" />
+      <item index="4" class="java.lang.String" itemvalue="Python.wsdl" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.combined" />
-        <item index="1" class="java.lang.String" itemvalue="Python.wsdl (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.excel" />
-        <item index="3" class="java.lang.String" itemvalue="Python.zeeps" />
+        <item index="0" class="java.lang.String" itemvalue="Python.methods" />
+        <item index="1" class="java.lang.String" itemvalue="Python.wsdl" />
+        <item index="2" class="java.lang.String" itemvalue="Python.zeeps" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MasterPrep" />
         <item index="4" class="java.lang.String" itemvalue="Python.OrderPrep" />
       </list>
     </recent_temporary>
@@ -463,12 +506,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4790174" sideWeight="0.502442" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45138177" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.419652" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2728938" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2759463" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -478,6 +520,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -494,14 +537,71 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Function.py">
+    <entry file="file://$PROJECT_DIR$/Testing/wsdl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="50" column="51" lean-forward="false" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="51" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OrderPrep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/zeeps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combined.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterPrep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Function.py" />
     <entry file="file://$PROJECT_DIR$/Testing/zeeps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -528,24 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Function.py" />
     <entry file="file://$PROJECT_DIR$/Step2.py" />
     <entry file="file://$PROJECT_DIR$/wsdl.py" />
-    <entry file="file://$PROJECT_DIR$/Function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Function.py" />
     <entry file="file://$PROJECT_DIR$/Step2.py" />
     <entry file="file://$PROJECT_DIR$/wsdl.py" />
     <entry file="file://$PROJECT_DIR$/.virtualenvs/lib/python3.6/site-packages/pandas/io/excel.py">
@@ -563,13 +649,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Load.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="77" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Load.py" />
     <entry file="file://$PROJECT_DIR$/addOrderRequest.csv" />
     <entry file="file://$PROJECT_DIR$/Step1.py" />
     <entry file="file://$PROJECT_DIR$/Step2.py" />
@@ -580,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="1010" column="0" lean-forward="false" selection-start-line="1010" selection-start-column="0" selection-end-line="1010" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="474" column="4" lean-forward="false" selection-start-line="474" selection-start-column="4" selection-end-line="474" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,27 +688,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="55" column="58" lean-forward="false" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Function.py" />
     <entry file="file://$PROJECT_DIR$/Testing/Step1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2295">
           <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,16 +710,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-843">
           <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combined.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
-            <element signature="e#0#31#0" expanded="false" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/zeeps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/wsdl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MasterPrep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        <state relative-caret-position="300">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -666,46 +759,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OrderPrep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="1335">
+          <caret line="89" column="2" lean-forward="false" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/wsdl.py">
+    <entry file="file://$PROJECT_DIR$/Testing/methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="172">
+          <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/zeeps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/combined.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

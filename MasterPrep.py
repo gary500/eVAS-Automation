@@ -1,6 +1,6 @@
 import requests, os, xlsxwriter
 from bs4 import BeautifulSoup
-
+from suds.client import Client
 
 # TODO typo fix in 'getMasterDataServiceRequest' type
 
@@ -23,7 +23,6 @@ def finishing(last_element):
     if flag == 0:
         end.append(original)
     return end
-
 
 def redirects(string, columns):
     elements = []
@@ -49,16 +48,10 @@ def redirects(string, columns):
 if not os.path.exists('master_functions/'):
     os.makedirs('master_functions/')
 
-functions = [
-    'getLocationList',
-    'setAccountLocations',
-    'setAccounts',
-    'getLocations',
-    'setLocations',
-    'getMasterDataServiceStatus',
-    'getAccounts',
-    'getAccountList'
-]
+MasterDataURL = 'http://luswst007638:8080/eVASWS.MASTERDATA/services/MasterDataPort?wsdl'
+MasterDataClient = Client(MasterDataURL)
+functions = [method for method in MasterDataClient.wsdl.services[0].ports[0].methods]
+print(len(functions), functions)
 
 # Parsing all the main functions from the WSDL
 response = requests.get('http://luswst007638:8080/eVASWS.MASTERDATA/services/MasterDataPort?wsdl').text

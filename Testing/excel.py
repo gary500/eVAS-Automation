@@ -11,5 +11,4 @@ df = pd.read_excel('addOrderRequest.xlsx', sheet_name='Sheet1')
 rows = []
 for arr in df.as_matrix():
     rows.append(list(arr))
-
 print(rows)

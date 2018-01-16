@@ -1,7 +1,7 @@
-# TODO read every testcase in every spreadsheet
-# TODO use zeeps library to excecute the wsdl request
+import zeep
 
-from zeep import Client
+data = ['1.3', 'GSI', 'Glory']
 
-client = Client('http://10.17.240.71:8080/eVASWS.ORDER/services/OrderPort?wsdl', strict=False)
-print(client.service.getAccountList('1.3', 'GSI', 'GLory', '1'))
+wsdl = 'http://luswst007638:8080/eVASWS.MASTERDATA/services/MasterDataPort?wsdl'
+client = zeep.Client(wsdl=wsdl, strict=False)
+print(client.service.getMasterDataServiceStatus(*data))

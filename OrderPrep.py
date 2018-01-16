@@ -1,5 +1,6 @@
 import requests, os, xlsxwriter
 from bs4 import BeautifulSoup
+from suds.client import Client
 
 #TODO Fix the function name typos in the list "functions"
 #TODO Retrieve the operations from the WSDL. Currently its hardcoded until Jefferey fixes his WSDL
@@ -43,32 +44,14 @@ def redirects(string, columns):
                     columns.append(i)
     return columns
 
+# Creates OrderData spreadsheet Directory
 if not os.path.exists('order_function/'):
     os.makedirs('order_function/')
 
-functions = [
-    'getOrderProfile',
-    'updateStandingOrder',
-    'getLocations',
-    'addOrder',
-    'getOrderExtract',
-    'updatePassthru',
-    'getOrderDeatilsList',
-    'getOrderDetailsList',
-    'getOrderStatus',
-    'getOrder',
-    'verifyLocationPassword',
-    'getOrderServiceStatus',
-    'updateOrderStatus',
-    'updatePassthruID',
-    'updateOrder',
-    'getStandingOrder',
-    'getAccounts',
-    'getOrderSummaryList',
-    'getShipDateFromDeliveryDate',
-    'getDeliveryDateFromShipDate',
-    'addStandingOrder'
-]
+OrderDataURL = 'http://luswst007638:8080/eVASWS.ORDER/services/OrderPort?wsdl'
+OrderDataClient = Client(OrderDataURL)
+functions = [method for method in OrderDataClient.wsdl.services[0].ports[0].methods]
+print(len(functions), functions)
 
 # Parsing all the main functions from the WSDL
 response = requests.get('http://luswst007638:8080/eVASWS.ORDER/services/OrderPort?wsdl').text
