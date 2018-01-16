@@ -26,8 +26,6 @@ for i in OrderDataMethods:
 MasterDataURL = 'http://luswst007638:8080/eVASWS.MASTERDATA/services/MasterDataPort?wsdl'
 MasterDataClient = Client(MasterDataURL)
 MasterDataMethods = [method for method in MasterDataClient.wsdl.services[0].ports[0].methods]
-method = MasterDataClient.wsdl.services[0].ports[0].methods["getMasterDataServiceStatus"]
-params = method.binding.input.param_defs(method)
 for i in MasterDataMethods:
     workbook = xlsxwriter.Workbook('master_function/' + i + '.xlsx')
     method = MasterDataClient.wsdl.services[0].ports[0].methods[i]
